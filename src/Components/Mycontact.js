@@ -134,7 +134,7 @@ const Mycontact = (props) => {
                         </div>
                         <div className='cu4'>
                         <p className='cup3'>Contact address</p>
-                        <address className='cua1'>Air Force base Ikeja</address>
+                        <address className='cua1'>Iyana-Ipaja, Lagos</address>
                         </div>
                     </div>
                 </div>
