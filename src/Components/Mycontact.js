@@ -124,7 +124,7 @@ const Mycontact = (props) => {
                         </div>
                         <div className='cu4'>
                         <p className='cup3'>Contact on mail</p>
-                        <a href='mailto:Bsyogabriel24@gmail.com' className='cua1'>Bsyogabriel24@gmail.com</a>
+                        <a href='mailto:Bayogabriel24@gmail.com' className='cua1'>Bayogabriel24@gmail.com</a>
                         <br></br>
                         </div>
                     </div>
