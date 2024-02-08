@@ -56,7 +56,7 @@ const Myworks = (props) => {
       img: canv5,
       title: "School portal",
       body: "A School management system",
-      preview: "https://cosmic-tartufo-8dea38.netlify.app/",
+      preview: "https://schoolmsdemo.netlify.app/",
       github: "",
       stack: "reactnodenative"
     },
