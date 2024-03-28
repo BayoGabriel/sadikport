@@ -167,6 +167,21 @@ const Myresume = (props) => {
                   <p className='mrp3'>Expert Front-end Developer at Soair Africa, where I brought designs to life with my proficiency in HTML, CSS, JavaScript and React.js. Collaborated with cross-functional teams to develop and maintain user-friendly websites, and delivered visually stunning and high-performing web experiences for clients.</p>
                 </div>
               </div>
+              <div className='d-flex justify-content-start mrmo' data-aos="fade-up" data-aos-duration="1000">
+                <div className='mrdur' style={{backgroundColor:`${prop2 && prop2.length > 0 ? prop2 : hcolor2 ? hcolor2 : "rgba(20, 223, 166, 0.171)"}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "10px"}}><p>2021 - present</p></div>
+                <hr className='hrrr' style={{width: "30px", height: "4px"}}></hr>
+                <div className='hrd'>
+                  <hr className='hrr' style={{width: "4px", height: "20px"}}></hr>
+                  <img src={circle} className="mrcir"/>
+                  <hr className='hrr2' style={{width: "4px", height: "130px"}}></hr>
+                </div>
+                <hr className='hrrrr' style={{width: "30px", height: "4px"}}></hr>
+                <div className='mrbox'>
+                  <p className='mrp1' style={{color:prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}}>Front-end Developer</p>
+                  <p className='mrp2'>ITB Technoly</p>
+                  <p className='mrp3'>Co founder and fullstack Developer at Itb Technology, where I brought designs to life with my proficiency in HTML, CSS, JavaScript and React.js. Collaborated with cross-functional teams to develop and maintain user-friendly websites, and delivered visually stunning and high-performing web experiences for clients.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
