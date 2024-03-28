@@ -178,7 +178,7 @@ const Myresume = (props) => {
                 <hr className='hrrrr' style={{width: "30px", height: "4px"}}></hr>
                 <div className='mrbox'>
                   <p className='mrp1' style={{color:prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}}>CoFounder & Full-Stack Developer</p>
-                  <p className='mrp2'>ITB Technoly</p>
+                  <p className='mrp2'>ITB Technology</p>
                   <p className='mrp3'>Co founder and fullstack Developer at Itb Technology, where I brought designs to life with my proficiency in HTML, CSS, JavaScript and React.js. Collaborated with cross-functional teams to develop and maintain user-friendly websites, and delivered visually stunning and high-performing web experiences for clients.</p>
                 </div>
               </div>
