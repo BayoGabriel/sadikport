@@ -5,7 +5,7 @@ import github from "../Assets/Images/github.svg"
 import facebook from "../Assets/Images/mail.svg"
 import Linkedin from "../Assets/Images/linkedin.svg"
 import threads from "../Assets/Images/threads-seeklogo.com-2.svg"
-import image from "../Assets/Images/mybanner.png"
+import image from "../Assets/Images/mybanner.jpeg"
 import { Typewriter, useTypewriter } from 'react-simple-typewriter'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
