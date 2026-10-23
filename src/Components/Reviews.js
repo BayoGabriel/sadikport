@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
 import "../Styles/Reviews.css"
-import imag from "../Assets/Images/kk.jpg"
 import profile from "../Assets/Images/profile.svg"
 import "../Styles/Aboutme.css"
 import prev from "../Assets/Images/prev.svg"

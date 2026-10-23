@@ -92,12 +92,12 @@ const Main = () => {
             <div className='mmd'>
                 <div className='container-fluid sa'>
                     <div className='row text-center mrow p-0'>
-                        <a  href='/home' target="frame" onClick={()=>Gabriel("/home")} className='col-2 borde'><p className='menu'><i style={{color:color ? color : "rgb(20, 223, 166)"}}>0.1 </i>HOME</p></a>
-                        <a href='/about' target="frame" onClick={()=>Gabriel("/about")} className='col-2'><p className='menu'><i style={{color:color ? color : "rgb(20, 223, 166)"}}>0.2 </i>ABOUT</p></a>
-                        <a href='/resume' target="frame" onClick={()=>Gabriel("/resume")} className='col-2 borde'><p className='menu'><i style={{color:color ? color : "rgb(20, 223, 166)"}}>0.3 </i>RESUME</p></a>
-                        <a href='/work' target="frame" onClick={()=>Gabriel("/work")} className='col-2'><p className='menu'><i style={{color:color ? color : "rgb(20, 223, 166)"}}>0.4 </i>WORKS</p></a>
-                        <a href='/blog' target="frame" onClick={()=>Gabriel("/blog")} className='col-2 borde'><p className='menu'><i style={{color:color ? color : "rgb(20, 223, 166)"}}>0.5 </i>BLOGS</p></a>
-                        <a href='/contact' target="frame" onClick={()=>Gabriel("/contact")} className='col-2'><p className='menu'><i style={{color:color ? color : "rgb(20, 223, 166)"}}>0.6 </i>CONTACT</p></a>
+                        <a  href='/home' target="frame" onClick={()=>handleMenu("/home")} className='col-2 borde'><p className='menu'><i style={{color:color ? color : "rgb(20, 223, 166)"}}>0.1 </i>HOME</p></a>
+                        <a href='/about' target="frame" onClick={()=>handleMenu("/about")} className='col-2'><p className='menu'><i style={{color:color ? color : "rgb(20, 223, 166)"}}>0.2 </i>ABOUT</p></a>
+                        <a href='/resume' target="frame" onClick={()=>handleMenu("/resume")} className='col-2 borde'><p className='menu'><i style={{color:color ? color : "rgb(20, 223, 166)"}}>0.3 </i>RESUME</p></a>
+                        <a href='/work' target="frame" onClick={()=>handleMenu("/work")} className='col-2'><p className='menu'><i style={{color:color ? color : "rgb(20, 223, 166)"}}>0.4 </i>WORKS</p></a>
+                        <a href='/blog' target="frame" onClick={()=>handleMenu("/blog")} className='col-2 borde'><p className='menu'><i style={{color:color ? color : "rgb(20, 223, 166)"}}>0.5 </i>BLOGS</p></a>
+                        <a href='/contact' target="frame" onClick={()=>handleMenu("/contact")} className='col-2'><p className='menu'><i style={{color:color ? color : "rgb(20, 223, 166)"}}>0.6 </i>CONTACT</p></a>
                     </div>
                 </div>
             </div>
@@ -116,8 +116,8 @@ const Main = () => {
                 <a href='/home' target="frame" data-bs-toggle="modal" data-bs-target="#myModal"><img src={dp} className="sidedp" style={{borderColor:`${color ? color : "rgb(20, 223, 166)"}`}}/></a>
                 
                 <br></br>
-                <button className='toggle' onClick={Gabriel}><img src={image[counter % image.length]}/></button>
-                {/* <p className='brand'>~201035~</p> */}
+                <button className='toggle' onClick={handleMenu}><img src={image[counter % image.length]}/></button>
+                
                 
                 <div className="dropdown dropend">
                     <a className="palette2-button" type="button"  data-bs-toggle="dropdown">

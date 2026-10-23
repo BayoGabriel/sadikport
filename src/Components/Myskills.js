@@ -205,12 +205,7 @@ const Myskills = (props) => {
                     <div className='se'  style={{backgroundColor:`${prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}`, width: `${width}%`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "10px"}}></div>
                   </div>
                 </div>
-                {/* <div data-aos-offset="-200" data-aos="fade-up" data-aos-duration="1000">
-                  <p><img style={{width:"15px",height:"15px"}} src={ts}/> Typescript - <span style={{color:`${prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}`}}>(95%)</span></p>
-                  <div className='ful' style={{backgroundColor:`${prop2 && prop2.length > 0 ? prop2 : hcolor2 ? hcolor2 : "rgba(20, 223, 166, 0.171)"}`,borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "10px"}}>
-                    <div className='se'  style={{backgroundColor:`${prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}`, width: `${width}%`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "10px"}}></div>
-                  </div>
-                </div> */}
+                
                 <div data-aos-offset="-200" data-aos="fade-up" data-aos-duration="1000">
                   <p>Illustrator - <span style={{color:`${prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}`}}>(95%)</span></p>
                   <div className='ful' style={{backgroundColor:`${prop2 && prop2.length > 0 ? prop2 : hcolor2 ? hcolor2 : "rgba(20, 223, 166, 0.171)"}`,borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "10px"}}>
