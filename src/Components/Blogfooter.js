@@ -10,12 +10,12 @@ const Blogfooter = () => {
     <>
         <div className='bfoot d-flex justify-content-between border-top'>
             <nav className='fnav'>
-            <a href='mailto:ayodejiBayode@gmail.com'><button><img src={facebook}/></button></a>
-            <a target="_blank" href='https://twitter.com/bayogabr'><button ><img src={twitter}/></button></a>
-            <a target="_blank" href="https://github.com/bayogabriel"><button ><img src={github}/></button></a>
-            <a target="_blank" href="https://www.linkedin.com/in/bayogabriel"><button><img src={Linkedin}/></button></a>
+            <a href='mailto:abubakarsadiqabdulazeez388@gmail.com'><button><img src={facebook}/></button></a>
+            <a target="_blank" href='https://x.com/'><button ><img src={twitter}/></button></a>
+            <a target="_blank" href="https://www.desynexia.com"><button ><img src={github}/></button></a>
+            <a target="_blank" href="https://www.linkedin.com/"><button><img src={Linkedin}/></button></a>
             </nav>
-            <p>201035</p>
+            <p>© Abdulazeez Sadiq</p>
         </div>
     </>
   )

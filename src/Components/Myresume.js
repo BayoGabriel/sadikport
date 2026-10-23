@@ -72,7 +72,7 @@ const Myresume = (props) => {
                 <p className='text-white mreq'>Educational Qualification</p>
               </div>
               <div className='d-flex justify-content-start mrmov' data-aos="fade-up" data-aos-duration="1000">
-                <div className='mrdur' style={{backgroundColor:`${prop2 && prop2.length > 0 ? prop2 : hcolor2 ? hcolor2 : "rgba(20, 223, 166, 0.171)"}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "10px"}}><p>2006 - 2010</p></div>
+                <div className='mrdur' style={{backgroundColor:`${prop2 && prop2.length > 0 ? prop2 : hcolor2 ? hcolor2 : "rgba(20, 223, 166, 0.171)"}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "10px"}}><p>Degree</p></div>
                 <hr className='hrrr' style={{width: "30px", height: "4px"}}></hr>
                 <div className='hrd'>
                   <hr className='hrr' style={{width: "4px", height: "20px"}}></hr>
@@ -81,13 +81,13 @@ const Myresume = (props) => {
                 </div>
                 <hr className='hrrrr' style={{width: "30px", height: "4px"}}></hr>
                 <div className='mrbox'>
-                  <p className='mrp1' style={{color:prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}}>Primary School Education</p>
-                  <p className='mrp2'>Baptist Primary School</p>
-                  <p className='mrp3'>Received standard primary education and developed strong foundation in academics and personal development.</p>
+                  <p className='mrp1' style={{color:prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}}>Bachelor's Degree</p>
+                  <p className='mrp2'>Federal University of Technology, Minna</p>
+                  <p className='mrp3'>Completed a Bachelor's degree, building a strong academic foundation that supports a career in product design, strategy, and technology.</p>
                 </div>
               </div>
               <div className='d-flex justify-content-start mrmo' data-aos="fade-up" data-aos-duration="1000">
-                <div className='mrdur' style={{backgroundColor:`${prop2 && prop2.length > 0 ? prop2 : hcolor2 ? hcolor2 : "rgba(20, 223, 166, 0.171)"}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "10px"}}><p>2011 - 2017</p></div>
+                <div className='mrdur' style={{backgroundColor:`${prop2 && prop2.length > 0 ? prop2 : hcolor2 ? hcolor2 : "rgba(20, 223, 166, 0.171)"}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "10px"}}><p>Certification</p></div>
                 <hr className='hrrr' style={{width: "30px", height: "4px"}}></hr>
                 <div className='hrd'>
                   <hr className='hrr' style={{width: "4px", height: "20px"}}></hr>
@@ -96,13 +96,13 @@ const Myresume = (props) => {
                 </div>
                 <hr className='hrrrr' style={{width: "30px", height: "4px"}}></hr>
                 <div className='mrbox'>
-                  <p className='mrp1' style={{color:prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}}>Secondary School Education</p>
-                  <p className='mrp2'>St. Alphonsus Secondary School</p>
-                  <p className='mrp3'>Received comprehensive education with focus on academics and extracurriculars, developed strong critical thinking and problem-solving skills</p>
+                  <p className='mrp1' style={{color:prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}}>UI/UX Design Certification</p>
+                  <p className='mrp2'>AptLearn</p>
+                  <p className='mrp3'>Earned a professional certification in UI/UX Design, covering user research, interaction design, wireframing, prototyping, and usability best practices.</p>
                 </div>
               </div>
               <div className='d-flex justify-content-start mrmo' data-aos="fade-up" data-aos-duration="1000">
-                <div className='mrdur' style={{backgroundColor:`${prop2 && prop2.length > 0 ? prop2 : hcolor2 ? hcolor2 : "rgba(20, 223, 166, 0.171)"}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "10px"}}><p>2018 - 2023</p></div>
+                <div className='mrdur' style={{backgroundColor:`${prop2 && prop2.length > 0 ? prop2 : hcolor2 ? hcolor2 : "rgba(20, 223, 166, 0.171)"}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "10px"}}><p>Certification</p></div>
                 <hr className='hrrr' style={{width: "30px", height: "4px"}}></hr>
                 <div className='hrd'>
                   <hr className='hrr' style={{width: "4px", height: "20px"}}></hr>
@@ -111,9 +111,9 @@ const Myresume = (props) => {
                 </div>
                 <hr className='hrrrr' style={{width: "30px", height: "4px"}}></hr>
                 <div className='mrbox'>
-                  <p className='mrp1' style={{color:prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}}>Bachelor Of Engineering</p>
-                  <p className='mrp2'>Olusegun Agagu University Of Science And Technology</p>
-                  <p className='mrp3'>Successfully completed a rigorous Bachelor of Engineering in Electrical Engineering program, gaining a strong foundation in the principles, theories, and practical applications of Electrical engineering.</p>
+                  <p className='mrp1' style={{color:prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}}>HTML5 & CSS Certification</p>
+                  <p className='mrp2'>AptLearn</p>
+                  <p className='mrp3'>Earned a certification in HTML5 and CSS, strengthening the ability to collaborate closely with engineering teams and design technically feasible interfaces.</p>
                 </div>
               </div>
             </div>
@@ -123,7 +123,7 @@ const Myresume = (props) => {
                 <p className='text-white mreq'>Working Experience</p>
               </div>
               <div className='d-flex justify-content-start mrmov' data-aos="fade-up" data-aos-duration="1000">
-                <div className='mrdur' style={{backgroundColor:`${prop2 && prop2.length > 0 ? prop2 : hcolor2 ? hcolor2 : "rgba(20, 223, 166, 0.171)"}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "10px"}}><p>2021 - present</p></div>
+                <div className='mrdur' style={{backgroundColor:`${prop2 && prop2.length > 0 ? prop2 : hcolor2 ? hcolor2 : "rgba(20, 223, 166, 0.171)"}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "10px"}}><p>Feb 2022 - Aug 2025</p></div>
                 <hr className='hrrr' style={{width: "30px", height: "4px"}}></hr>
                 <div className='hrd'>
                   <hr className='hrr' style={{width: "4px", height: "20px"}}></hr>
@@ -132,13 +132,13 @@ const Myresume = (props) => {
                 </div>
                 <hr className='hrrrr' style={{width: "30px", height: "4px"}}></hr>
                 <div className='mrbox'>
-                  <p className='mrp1' style={{color:prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}}>Frontend and Backend Instructor</p>
-                  <p className='mrp2'>SOAIRAfrica</p>
-                  <p className='mrp3'>Since 2021, I have been actively engaged in instructing both frontend and backend technologies as part of the Soair Africa Bootcamp. In this role, I conduct comprehensive sessions within the six-month program, facilitating learning for cohorts ranging from 50 to 300 students per session. I provide hands-on guidance to ensure that students not only acquire but also master the skills necessary for success in the dynamic field of web development.</p>
+                  <p className='mrp1' style={{color:prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}}>Lead Product Designer</p>
+                  <p className='mrp2'>CribInn</p>
+                  <p className='mrp3'>Led end-to-end product strategy and UX for a property marketplace connecting landlords, tenants, and property seekers across Nigeria, scaling the platform to 40,000+ listings. Progressed from Product Designer to Lead Product Designer, owning product discovery, roadmap planning, feature prioritization, the company design system, and design QA.</p>
                 </div>
               </div>
               <div className='d-flex justify-content-start mrmo' data-aos="fade-up" data-aos-duration="1000">
-                <div className='mrdur' style={{backgroundColor:`${prop2 && prop2.length > 0 ? prop2 : hcolor2 ? hcolor2 : "rgba(20, 223, 166, 0.171)"}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "10px"}}><p>2021 - present</p></div>
+                <div className='mrdur' style={{backgroundColor:`${prop2 && prop2.length > 0 ? prop2 : hcolor2 ? hcolor2 : "rgba(20, 223, 166, 0.171)"}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "10px"}}><p>Feb 2024 - Aug 2025</p></div>
                 <hr className='hrrr' style={{width: "30px", height: "4px"}}></hr>
                 <div className='hrd'>
                   <hr className='hrr' style={{width: "4px", height: "20px"}}></hr>
@@ -147,13 +147,13 @@ const Myresume = (props) => {
                 </div>
                 <hr className='hrrrr' style={{width: "30px", height: "4px"}}></hr>
                 <div className='mrbox'>
-                  <p className='mrp1' style={{color:prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}}>Back-end Developer</p>
-                  <p className='mrp2'>SOAIRAfrica</p>
-                  <p className='mrp3'>Accomplished Back-end Developer at Soair Africa, where I leveraged my expertise in Node.js to design and develop high-performance, scalable and secure server-side systems. Collaborated with cross-functional teams to deliver innovative solutions, and ensured seamless data integration for clients resulting in outstanding results.</p>
+                  <p className='mrp1' style={{color:prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}}>Senior Product Designer</p>
+                  <p className='mrp2'>BoldSwitch</p>
+                  <p className='mrp3'>Partnered directly with the CEO to design digital financial products serving 100,000+ users across consumer banking, business banking, Scan & Pay, QR payments, virtual cards, bill payments, transfers, and international remittance — including Bravoo, a UK fintech platform enabling remittances to Nigeria while helping users build their UK credit profile.</p>
                 </div>
               </div>
               <div className='d-flex justify-content-start mrmo' data-aos="fade-up" data-aos-duration="1000">
-                <div className='mrdur' style={{backgroundColor:`${prop2 && prop2.length > 0 ? prop2 : hcolor2 ? hcolor2 : "rgba(20, 223, 166, 0.171)"}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "10px"}}><p>2021 - present</p></div>
+                <div className='mrdur' style={{backgroundColor:`${prop2 && prop2.length > 0 ? prop2 : hcolor2 ? hcolor2 : "rgba(20, 223, 166, 0.171)"}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "10px"}}><p>Apr 2023 - Present</p></div>
                 <hr className='hrrr' style={{width: "30px", height: "4px"}}></hr>
                 <div className='hrd'>
                   <hr className='hrr' style={{width: "4px", height: "20px"}}></hr>
@@ -162,13 +162,13 @@ const Myresume = (props) => {
                 </div>
                 <hr className='hrrrr' style={{width: "30px", height: "4px"}}></hr>
                 <div className='mrbox'>
-                  <p className='mrp1' style={{color:prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}}>Front-end Developer</p>
-                  <p className='mrp2'>SOAIRAfrica</p>
-                  <p className='mrp3'>Expert Front-end Developer at Soair Africa, where I brought designs to life with my proficiency in HTML, CSS, JavaScript and React.js. Collaborated with cross-functional teams to develop and maintain user-friendly websites, and delivered visually stunning and high-performing web experiences for clients.</p>
+                  <p className='mrp1' style={{color:prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}}>Senior Product Designer (Contract)</p>
+                  <p className='mrp2'>Amabills Technology</p>
+                  <p className='mrp3'>Lead product design across enterprise SaaS, logistics, mobility, construction, HR technology, operational platforms, and digital commerce — including THE LODA multi-service platform, Fuel Management, Construction Management, Staff Management, Logistics Management, Website Monitoring, MAAB Luxury, UK Honey Marketplace, and an EdTech platform.</p>
                 </div>
               </div>
               <div className='d-flex justify-content-start mrmo' data-aos="fade-up" data-aos-duration="1000">
-                <div className='mrdur' style={{backgroundColor:`${prop2 && prop2.length > 0 ? prop2 : hcolor2 ? hcolor2 : "rgba(20, 223, 166, 0.171)"}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "10px"}}><p>2021 - present</p></div>
+                <div className='mrdur' style={{backgroundColor:`${prop2 && prop2.length > 0 ? prop2 : hcolor2 ? hcolor2 : "rgba(20, 223, 166, 0.171)"}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "10px"}}><p>Nov 2023 - Dec 2024</p></div>
                 <hr className='hrrr' style={{width: "30px", height: "4px"}}></hr>
                 <div className='hrd'>
                   <hr className='hrr' style={{width: "4px", height: "20px"}}></hr>
@@ -177,9 +177,39 @@ const Myresume = (props) => {
                 </div>
                 <hr className='hrrrr' style={{width: "30px", height: "4px"}}></hr>
                 <div className='mrbox'>
-                  <p className='mrp1' style={{color:prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}}>CoFounder & Full-Stack Developer</p>
-                  <p className='mrp2'>ITB Technology</p>
-                  <p className='mrp3'>Co founder and fullstack Developer at Itb Technology, where I brought designs to life with my proficiency in HTML, CSS, JavaScript and React.js. Collaborated with cross-functional teams to develop and maintain user-friendly websites, and delivered visually stunning and high-performing web experiences for clients.</p>
+                  <p className='mrp1' style={{color:prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}}>Senior Product Designer</p>
+                  <p className='mrp2'>JLD Aveo+</p>
+                  <p className='mrp3'>Led product strategy across multiple client engagements while managing a team of three Product Designers. Mentored designers through coaching and design critiques, conducted product design interviews, led discovery workshops and UX strategy, and delivered e-commerce, gaming, and travel products.</p>
+                </div>
+              </div>
+              <div className='d-flex justify-content-start mrmo' data-aos="fade-up" data-aos-duration="1000">
+                <div className='mrdur' style={{backgroundColor:`${prop2 && prop2.length > 0 ? prop2 : hcolor2 ? hcolor2 : "rgba(20, 223, 166, 0.171)"}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "10px"}}><p>Aug 2024 - Nov 2024</p></div>
+                <hr className='hrrr' style={{width: "30px", height: "4px"}}></hr>
+                <div className='hrd'>
+                  <hr className='hrr' style={{width: "4px", height: "20px"}}></hr>
+                  <img src={circle} className="mrcir"/>
+                  <hr className='hrr2' style={{width: "4px", height: "130px"}}></hr>
+                </div>
+                <hr className='hrrrr' style={{width: "30px", height: "4px"}}></hr>
+                <div className='mrbox'>
+                  <p className='mrp1' style={{color:prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}}>Senior Product Designer (Contract)</p>
+                  <p className='mrp2'>Mustard Stone Technologies</p>
+                  <p className='mrp3'>Led UX strategy for the Nigeria Police Crime & Investigation Management Platform — delivering Case Management, Investigation, Officer Assignment, Registry, Evidence Management, Live Interviews, Reporting & Analytics, and Document Tracking modules — partnering with stakeholders and engineering to digitize investigative workflows and improve operational transparency.</p>
+                </div>
+              </div>
+              <div className='d-flex justify-content-start mrmo' data-aos="fade-up" data-aos-duration="1000">
+                <div className='mrdur' style={{backgroundColor:`${prop2 && prop2.length > 0 ? prop2 : hcolor2 ? hcolor2 : "rgba(20, 223, 166, 0.171)"}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "10px"}}><p>Jan 2022 - May 2024</p></div>
+                <hr className='hrrr' style={{width: "30px", height: "4px"}}></hr>
+                <div className='hrd'>
+                  <hr className='hrr' style={{width: "4px", height: "20px"}}></hr>
+                  <img src={circle} className="mrcir"/>
+                  <hr className='hrr2' style={{width: "4px", height: "130px"}}></hr>
+                </div>
+                <hr className='hrrrr' style={{width: "30px", height: "4px"}}></hr>
+                <div className='mrbox'>
+                  <p className='mrp1' style={{color:prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}}>Product Designer</p>
+                  <p className='mrp2'>Cuddle Realty</p>
+                  <p className='mrp3'>Designed the mobile experience for a PropTech investment platform serving 3,000+ users — including investment journeys, onboarding experiences, and portfolio dashboards with ROI analytics — collaborating with founders and engineering through implementation.</p>
                 </div>
               </div>
             </div>

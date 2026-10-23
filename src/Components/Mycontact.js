@@ -114,7 +114,7 @@ const Mycontact = (props) => {
                         </div>
                         <div className='cu4'>
                         <p className='cup3'>Contact on phone</p>
-                        <a href='tel:+2347068414104' className='cua1'>+2347068414104</a>
+                        <a href='tel:+2347051877448' className='cua1'>+234 705 187 7448</a>
                         <br></br>
                         </div>
                     </div>
@@ -124,7 +124,7 @@ const Mycontact = (props) => {
                         </div>
                         <div className='cu4'>
                         <p className='cup3'>Contact on mail</p>
-                        <a href='mailto:Bayogabriel24@gmail.com' className='cua1'>Bayogabriel24@gmail.com</a>
+                        <a href='mailto:abubakarsadiqabdulazeez388@gmail.com' className='cua1'>abubakarsadiqabdulazeez388@gmail.com</a>
                         <br></br>
                         </div>
                     </div>
@@ -134,7 +134,7 @@ const Mycontact = (props) => {
                         </div>
                         <div className='cu4'>
                         <p className='cup3'>Contact address</p>
-                        <address className='cua1'>Iyana-Ipaja, Lagos</address>
+                        <address className='cua1'>Abuja, Nigeria</address>
                         </div>
                     </div>
                 </div>

@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from 'react'
 import menu from "../Assets/Images/menu.svg"
 import "../Styles/Menu.css"
 import close from "../Assets/Images/close.svg"
-import dp from "../Assets/Images/mybanner.png"
+import dp from "../Assets/Images/mybanner.jpeg"
 import arro from "../Assets/Images/arro.svg"
 import "../Styles/Main.css"
 import "../Styles/Demo.css"
@@ -40,7 +40,7 @@ const Main = () => {
     const switc = () => {
         setChange(!change)
     }
-    const Gabriel = (e) => {
+    const handleMenu = (e) => {
         add()
         switc()
         if(typeof e === "string"){

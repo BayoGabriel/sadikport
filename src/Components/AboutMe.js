@@ -74,7 +74,7 @@ const AboutMe = (props) => {
                 </div>
                 <div className='col-md-6' data-aos="fade-up" data-aos-duration="2000">
                     <div className='information'>
-                        <h3>Hi, I am <span style={{color:`${prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}`}}>Bayode Gabriel</span></h3>
+                        <h3>Hi, I am <span style={{color:`${prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}`}}>Abdulazeez Abubakar Sadiq</span></h3>
                         <div className='infoholder11'>
                             <div className='infoholder111'>
                                 <ul className=''>
@@ -89,17 +89,17 @@ const AboutMe = (props) => {
                             </div>
                             <div className='infoholder112'>
                                 <ul>
-                                    <li>: Gabriel</li>
-                                    <li>: Bayode</li>
-                                    <li>: 23</li>
+                                    <li>: Abdulazeez</li>
+                                    <li>: Abubakar Sadiq</li>
+                                    <li>: N/A</li>
                                     <li>: Nigerian</li>
                                     <li>: English</li>
-                                    <li>: Lagos</li>
+                                    <li>: Abuja</li>
                                     <li>: Available</li>
                                 </ul>
                             </div>
                         </div>
-                        <a style={{textDecoration:"none"}} href="https://docs.google.com/document/d/18MEU5cVptZUktoSEmr8hk20OQoElCdJo/edit?usp=drive_link&ouid=112481209984808208266&rtpof=true&sd=true">
+                        <a style={{textDecoration:"none"}} href="#">
                             <button className='dre' style={{background:`${prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "6px"}}><span>DOWNLOAD RESUME</span></button>
                         </a>
                     </div>

@@ -1,12 +1,10 @@
 import React, { useEffect, useRef, useState } from 'react'
 import "../Styles/Reviews.css"
 import imag from "../Assets/Images/kk.jpg"
-import mrsam from "../Assets/Images/mrsam.jpg"
 import profile from "../Assets/Images/profile.svg"
 import "../Styles/Aboutme.css"
 import prev from "../Assets/Images/prev.svg"
 import next from "../Assets/Images/next.svg"
-import tola from "../Assets/Images/tola.jpeg"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import styled from 'styled-components';
@@ -31,15 +29,15 @@ const Reviews = (props) => {
     const [counter3, setCounter3] = useState(0)
     
     const [quote1, setQuote1] = useState([
-        'Excellent guy', "I'm a web developer myself so it was particularly nice working with Gabriel. Quality quality stuffs always.", "Hell yeah!, this guy's great. I've tried other developers and he's the only one that nailed exactly what I wanted perfectly.", "My search for developers ended when I met Gabriel. Top top guy."
+        'Excellent designer', "I'm an engineer myself so it was particularly nice working with Abdulazeez. Quality design work always.", "Hell yeah!, this guy's great. I've tried other designers and he's the only one that nailed exactly what I wanted perfectly.", "My search for designers ended when I met Abdulazeez. Top top guy."
     ])
 
     const [quote2, setQuote2] = useState([
-        "I'm a web developer myself so it was particularly nice working with Gabriel. Quality quality stuffs always.", "Hell yeah!, this guy's great. I've tried other developers and he's the only one that nailed exactly what I wanted perfectly.", "My search for developers ended when I met Gabriel. Top top guy.", 'Excellent guy'
+        "I'm an engineer myself so it was particularly nice working with Abdulazeez. Quality design work always.", "Hell yeah!, this guy's great. I've tried other designers and he's the only one that nailed exactly what I wanted perfectly.", "My search for designers ended when I met Abdulazeez. Top top guy.", 'Excellent designer'
     ])
 
     const [quote3, setQuote3] = useState([
-        "Hell yeah!, this guy's great. I've tried other developers and he's the only one that nailed exactly what I wanted perfectly.", "My search for developers ended when I met Gabriel. Top top guy.", 'Excellent guy', "I'm a web developer myself so it was particularly nice working with Gabriel. Quality quality stuffs always."
+        "Hell yeah!, this guy's great. I've tried other designers and he's the only one that nailed exactly what I wanted perfectly.", "My search for designers ended when I met Abdulazeez. Top top guy.", 'Excellent designer', "I'm an engineer myself so it was particularly nice working with Abdulazeez. Quality design work always."
     ])
 
     const [name1, setName1] = useState([
@@ -55,25 +53,25 @@ const Reviews = (props) => {
     ])
 
     const [rel1, setRel1] = useState([
-        "Boss - soairafrica", "Boss - soairafrica", "Client", "Client"
+        "Founder - CribInn", "CEO - BoldSwitch", "Client", "Client"
     ])
 
     const [rel2, setRel2] = useState([
-        "Boss - soairafrica", "Client", "Client", "Boss - soairafrica"
+        "CEO - BoldSwitch", "Client", "Client", "Founder - CribInn"
     ])
 
     const [rel3, setRel3] = useState([
-        "Client", "Client", "Boss - soairafrica", "Boss - soairafrica"
+        "Client", "Client", "Founder - CribInn", "CEO - BoldSwitch"
     ])
 
     const [image1, setImage1] = useState([
-        mrsam, tola, profile, profile
+        profile, profile, profile, profile
     ])
     const [image2, setImage2] = useState([
-        tola, profile, profile, mrsam
+        profile, profile, profile, profile
     ])
     const [image3, setImage3] = useState([
-        profile, profile, mrsam, tola
+        profile, profile, profile, profile
     ])
     const add1 = ()=> {
         setCounter1(e=> e + 1)

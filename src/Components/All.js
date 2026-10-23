@@ -40,28 +40,28 @@ const All = () => {
             <div className='row'>
                 <div className='col-md-4'>
                     <div className='fedd'>
-                        <a target="_blank" href='https://cosmic-tartufo-8dea38.netlify.app/'><img src={ecom2} style={{width:"100%", height:"40vh"}}/></a>
+                        <a target="_blank" href='https://www.desynexia.com'><img src={ecom2} style={{width:"100%", height:"40vh"}}/></a>
                         <p className='workt mt-3'>PROJECT 3</p>
                         <div>
-                            <p className='workbf mb-3 mt-1'>A school management system and website</p>
+                            <p className='workbf mb-3 mt-1'>CribInn — property marketplace</p>
                             <div className='d-flex justify-content-between'>
                                 <button type="button" className='workb btn btn-primar' onClick={showModal22}>DETAILS</button>
-                                <a target="_blank" href='https://cosmic-tartufo-8dea38.netlify.app/'><button className='workb btn btn-primar' type='button'>VIEW</button></a>
+                                <a target="_blank" href='https://www.desynexia.com'><button className='workb btn btn-primar' type='button'>VIEW</button></a>
                             </div>
                         </div>
                         <Modal show={isOpen22} onHide={hideModal22}>
                             <Modal.Header>
-                                <Modal.Title>school management system and website</Modal.Title>
+                                <Modal.Title>CribInn — property marketplace</Modal.Title>
                                 <button type="button" className="btn-close" onClick={hideModal22}></button>
                             </Modal.Header>
                             <Modal.Body>
-                                Constructed with the robust MERN stack, my School Management System redefines educational administration. Leveraging MongoDB, Express.js, React.js, and Node.js, it seamlessly integrates a dynamic platform. Students access a dedicated portal for result checking and payments, while teachers effortlessly manage results. My comprehensive admin dashboard ensures seamless data oversight and management. The polished website showcases news, images, history, and contacts. Harnessing Cloudinary, I've embraced cutting-edge tools to elevate the educational experience.
+                                Led end-to-end product strategy and UX for a property marketplace connecting landlords, tenants, and property seekers across Nigeria, scaling the platform to 40,000+ listings. Designed end-to-end web and mobile experiences across property search, bookings, landlord operations, tenant management, messaging, and payments, while building and scaling the company's design system.
                                 <br/>
-                                Thank you for taking the time to explore this work. Feel free to reach out to me if you have any questions or would like to know more about the development process.
+                                Thank you for taking the time to explore this work. Feel free to reach out to me if you have any questions or would like to know more about the design process.
                                 <br></br>
                                 Best regards,
                                 <br/>
-                                <span style={{fontWeight:"700"}}>GABRIEL</span>
+                                <span style={{fontWeight:"700"}}>ABDULAZEEZ</span>
                             </Modal.Body>
                             <Modal.Footer>
                                 <button onClick={hideModal22} type="button" className="btn btn-danger">Close</button>
@@ -71,51 +71,49 @@ const All = () => {
                 </div>
                 <div className='col-md-4'>
                     <div className='fedd'>
-                        <a target="_blank" href='https://swpe.netlify.app/home'><img src={ecom} style={{width:"100%", height:"40vh"}}/></a>
+                        <a target="_blank" href='https://www.desynexia.com'><img src={ecom} style={{width:"100%", height:"40vh"}}/></a>
                         <p className='workt mt-3'>PROJECT 2</p>
                         <div>
-                            <p className='workbf mb-3 mt-1'>An Ecommerce website</p>
+                            <p className='workbf mb-3 mt-1'>BoldSwitch — fintech product suite</p>
                             <div className='d-flex justify-content-between'>
                                 <button type="button" className='workb btn btn-primar' onClick={showModal2}>DETAILS</button>
-                                <a target="_blank" href='https://swpe.netlify.app/home'><button className='workb btn btn-primar' type='button'>VIEW</button></a>
+                                <a target="_blank" href='https://www.desynexia.com'><button className='workb btn btn-primar' type='button'>VIEW</button></a>
                             </div>
                         </div>
                         <Modal show={isOpen2} onHide={hideModal2}>
                             <Modal.Header>
-                                <Modal.Title>An Ecommerce website</Modal.Title>
+                                <Modal.Title>BoldSwitch — fintech product suite</Modal.Title>
                                 <button type="button" className="btn-close" onClick={hideModal2}></button>
                             </Modal.Header>
                             <Modal.Body>
-                                I am excited to showcase a recent project in my portfolio - an e-commerce website that I have developed using the MERN (MongoDB, Express.js, React, Node.js) stack. This dynamic and feature-rich e-commerce platform is currently under construction and represents a significant milestone in my journey as a web developer.
+                                Partnered directly with the CEO to design digital financial products serving 100,000+ users across consumer banking, business banking, payments, and international remittance.
                                 <br></br>
                                 <span style={{fontWeight:"700"}}>Project Details:</span>
                                 <br/>
-                                - Website Type: E-Commerce
+                                - Product Type: Fintech Platform
                                 <br/>
-                                - Technology Stack: MERN (MongoDB, Express.js, React, Node.js)
+                                - Scope: Consumer banking, business banking, remittance
                                 <br/>
-                                - Development Status: Under Construction
+                                - Role: Senior Product Designer
                                 <br></br>
-                                <span style={{fontWeight:"700"}}>Key Features (Work in Progress):</span>
+                                <span style={{fontWeight:"700"}}>Key Features Designed:</span>
                                 <br/>
-                                - User-friendly product browsing and searching
+                                - Scan & Pay and QR payment experiences
                                 <br/>
-                                - Seamless shopping cart and checkout experience
+                                - Virtual cards, bill payments, and transfers
                                 <br/>
-                                - User authentication and account management
+                                - Bravoo — UK remittance to Nigeria with credit building
                                 <br/>
-                                - Interactive product pages with detailed information
+                                - Reusable design systems across products
                                 <br></br>
 
-                                While the website is still undergoing development and refinement, I wanted to share a glimpse of my technical skills and design capabilities through this project. The chosen MERN stack ensures a robust and efficient foundation for the website's functionalities, while my dedication to creating an intuitive user experience is evident in every aspect of the design.
-
-                                Please note that as this project is still in progress, some features and sections may be placeholders or undergoing further enhancement. I am committed to bringing this e-commerce website to completion and delivering a polished and functional platform that users will enjoy using.
+                                Working closely with executive leadership and engineering teams, I defined product requirements and delivered customer-focused solutions, standardizing user experiences across multiple fintech products.
                                 <br/>
-                                Thank you for taking the time to explore this work in progress. Feel free to reach out to me if you have any questions or would like to know more about the development process.
+                                Thank you for taking the time to explore this work. Feel free to reach out to me if you have any questions or would like to know more about the design process.
                                 <br></br>
                                 Best regards,
                                 <br/>
-                                <span style={{fontWeight:"700"}}>GABRIEL</span>
+                                <span style={{fontWeight:"700"}}>ABDULAZEEZ</span>
                             </Modal.Body>
                             <Modal.Footer>
                                 <button onClick={hideModal2} type="button" className="btn btn-danger">Close</button>
@@ -125,22 +123,22 @@ const All = () => {
                 </div>
                 <div className='col-md-4'>
                     <div className='fedd'>
-                        <a target="_blank" href='https://toolhire.netlify.app/'><img src={toolhire} style={{width:"100%", height:"40vh"}}/></a>
+                        <a target="_blank" href='https://www.desynexia.com'><img src={toolhire} style={{width:"100%", height:"40vh"}}/></a>
                         <p className='workt mt-3'>PROJECT 1</p>
                         <div>
-                            <p className='workbf mb-3 mt-1'>A tool hire site</p>
+                            <p className='workbf mb-3 mt-1'>THE LODA — mobility & logistics</p>
                             <div className='d-flex justify-content-between'>
                                 <button type="button" className='workb btn btn-primar' onClick={showModal}>DETAILS</button>
-                                <a target="_blank" href='https://toolhire.netlify.app/'><button className='workb btn btn-primar' type='button'>VIEW</button></a>
+                                <a target="_blank" href='https://www.desynexia.com'><button className='workb btn btn-primar' type='button'>VIEW</button></a>
                             </div>
                         </div>
                         <Modal show={isOpen} onHide={hideModal}>
                             <Modal.Header>
-                                <Modal.Title>Tool Hire Site</Modal.Title>
+                                <Modal.Title>THE LODA — mobility & logistics</Modal.Title>
                                 <button type="button" className="btn-close" onClick={hideModal}></button>
                             </Modal.Header>
                             <Modal.Body>
-                                As part of my journey to becoming a proficient developer, I crafted a Tool Hire platform utilizing the MERN stack along with Redux. This project served as a valuable playground to hone my backend API skills. While it primarily focused on backend functionality, the MERN stack - MongoDB, Express.js, React.js, and Node.js - combined with Redux provided a comprehensive environment for me to deepen my understanding of server-side processes. This hands-on experience significantly contributed to my growth as a developer, laying the foundation for more complex and dynamic projects in the future.
+                                Designed THE LODA, a multi-service platform for ride-hailing, truck-hailing, tricycle services, and logistics. Conducted discovery workshops, UX research, workflow analysis, and usability testing to improve operational efficiency, and built reusable design systems in close partnership with engineering throughout delivery.
                             </Modal.Body>
                             <Modal.Footer>
                                 <button onClick={hideModal} type="button" className="btn btn-danger">Close</button>

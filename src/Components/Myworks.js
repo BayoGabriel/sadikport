@@ -54,59 +54,59 @@ const Myworks = (props) => {
   const availableArray = [
     {
       img: canv5,
-      title: "School portal",
-      body: "A School management system",
-      preview: "https://schoolmsdemo.netlify.app/",
+      title: "CribInn",
+      body: "Property marketplace connecting landlords, tenants & seekers — 40,000+ listings",
+      preview: "https://www.desynexia.com",
       github: "",
-      stack: "reactnodenative"
+      stack: "marketplacewebmobile"
     },
     {
       img: canv4,
-      title: "Ecommerce",
-      body: "An ecommerce website",
-      preview: "https://swpe.netlify.app/",
+      title: "BoldSwitch",
+      body: "Fintech suite: consumer & business banking, Scan & Pay, QR payments, virtual cards",
+      preview: "https://www.desynexia.com",
       github: "",
-      stack: "reactnode"
+      stack: "fintechmobileweb"
     },
     {
       img: canv2,
-      title: "Buttons",
-      body: "Something to play with",
-      preview: "http://sowetowp.pythonanywhere.com/",
+      title: "Bravoo",
+      body: "UK fintech for remittances to Nigeria & building UK credit profile",
+      preview: "https://www.desynexia.com",
       github: "",
-      stack: "flaskhtmlcss"
+      stack: "fintechweb"
     },
     {
       img: canv3,
-      title: "Memeland",
-      body: "Memeland website clone",
-      preview: "https://prismatic-zuccutto-f02cb2.netlify.app/",
+      title: "THE LODA",
+      body: "Multi-service platform: ride-hailing, truck-hailing, tricycles & logistics",
+      preview: "https://www.desynexia.com",
       github: "",
-      stack: "htmlcss"
+      stack: "mobilesaas"
     },
     {
       img: canv1,
-      title: "NFT",
-      body: "A responsive NFT site clone",
-      preview: "https://tranquil-griffin-750644.netlify.app/",
+      title: "Police Crime & Investigation Platform",
+      body: "GovTech platform digitizing case management & investigative workflows",
+      preview: "https://www.desynexia.com",
       github: "",
-      stack: "htmlcss"
+      stack: "saasweb"
     },
     {
       img: canv,
-      title: "Blockchain",
-      body: "A responsive blockchain template sample",
-      preview: "https://bucolic-fairy-19651e.netlify.app/",
+      title: "Cuddle Realty",
+      body: "PropTech investment mobile app with ROI portfolio dashboards",
+      preview: "https://www.desynexia.com",
       github: "",
-      stack: "htmlcss"
+      stack: "mobilemarketplace"
     },
     {
       img: canv6,
-      title: "Wetransfer",
-      body: "A responsive clone of wetransfer login page",
-      preview: "https://calm-licorice-e9eb66.netlify.app/",
+      title: "Enterprise SaaS Suite",
+      body: "Fuel, Construction, Staff & Logistics Management, MAAB Luxury & UK Honey",
+      preview: "https://www.desynexia.com",
       github: "",
-      stack: "htmlcss"
+      stack: "saasweb"
     }
   ]
   const [works, setWorks] = useState(availableArray)
@@ -132,11 +132,11 @@ const Myworks = (props) => {
             </div>
             <div className='workType'>
               <button style={{backgroundColor: `${hcolor && bg === "all" ? prop1 && prop1.length > 0 ? prop1 : hcolor : prop2 && prop2.length > 0 ? prop2 : hcolor2}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "6px"}} className='drewo' onClick={() => filterer2()}><span style={{color: `${bg === "all" ? "black" : prop1 && prop1.length > 0 ? prop1 : hcolor}`}}>ALL</span></button>
-              <button style={{backgroundColor: `${hcolor && bg === "html" ? prop1 && prop1.length > 0 ? prop1 : hcolor : prop2 && prop2.length > 0 ? prop2 : hcolor2}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "6px"}} className='drewo' onClick={() => filterer("html")}><span style={{color: `${bg === "html" ? "black" : prop1 && prop1.length > 0 ? prop1 : hcolor}`}}>HTML/CSS</span></button>
-              <button style={{backgroundColor: `${hcolor && bg === "react" ? prop1 && prop1.length > 0 ? prop1 : hcolor : prop2 && prop2.length > 0 ? prop2 : hcolor2}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "6px"}} className='drewo' onClick={() => filterer("react")}><span style={{color: `${bg === "react" ? "black" : prop1 && prop1.length > 0 ? prop1 : hcolor}`}}>REACT JS</span></button>
-              <button style={{backgroundColor: `${hcolor && bg === "flask" ? prop1 && prop1.length > 0 ? prop1 : hcolor : prop2 && prop2.length > 0 ? prop2 : hcolor2}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "6px"}} className='drewo' onClick={() => filterer("flask")}><span style={{color: `${bg === "flask" ? "black" : prop1 && prop1.length > 0 ? prop1 : hcolor}`}}>FLASK</span></button>
-              <button style={{backgroundColor: `${hcolor && bg === "node" ? prop1 && prop1.length > 0 ? prop1 : hcolor : prop2 && prop2.length > 0 ? prop2 : hcolor2}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "6px"}} className='drewo' onClick={() => filterer("node")}><span style={{color: `${bg === "node" ? "black" : prop1 && prop1.length > 0 ? prop1 : hcolor}`}}>NODE JS</span></button>
-              <button style={{backgroundColor: `${hcolor && bg === "native" ? prop1 && prop1.length > 0 ? prop1 : hcolor : prop2 && prop2.length > 0 ? prop2 : hcolor2}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "6px"}} className='drewo' onClick={() => filterer("native")}><span style={{color: `${bg === "native" ? "black" : prop1 && prop1.length > 0 ? prop1 : hcolor}`}}>REACT NATIVE</span></button>
+              <button style={{backgroundColor: `${hcolor && bg === "fintech" ? prop1 && prop1.length > 0 ? prop1 : hcolor : prop2 && prop2.length > 0 ? prop2 : hcolor2}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "6px"}} className='drewo' onClick={() => filterer("fintech")}><span style={{color: `${bg === "fintech" ? "black" : prop1 && prop1.length > 0 ? prop1 : hcolor}`}}>FINTECH</span></button>
+              <button style={{backgroundColor: `${hcolor && bg === "saas" ? prop1 && prop1.length > 0 ? prop1 : hcolor : prop2 && prop2.length > 0 ? prop2 : hcolor2}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "6px"}} className='drewo' onClick={() => filterer("saas")}><span style={{color: `${bg === "saas" ? "black" : prop1 && prop1.length > 0 ? prop1 : hcolor}`}}>ENTERPRISE SAAS</span></button>
+              <button style={{backgroundColor: `${hcolor && bg === "mobile" ? prop1 && prop1.length > 0 ? prop1 : hcolor : prop2 && prop2.length > 0 ? prop2 : hcolor2}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "6px"}} className='drewo' onClick={() => filterer("mobile")}><span style={{color: `${bg === "mobile" ? "black" : prop1 && prop1.length > 0 ? prop1 : hcolor}`}}>MOBILE</span></button>
+              <button style={{backgroundColor: `${hcolor && bg === "web" ? prop1 && prop1.length > 0 ? prop1 : hcolor : prop2 && prop2.length > 0 ? prop2 : hcolor2}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "6px"}} className='drewo' onClick={() => filterer("web")}><span style={{color: `${bg === "web" ? "black" : prop1 && prop1.length > 0 ? prop1 : hcolor}`}}>WEB</span></button>
+              <button style={{backgroundColor: `${hcolor && bg === "marketplace" ? prop1 && prop1.length > 0 ? prop1 : hcolor : prop2 && prop2.length > 0 ? prop2 : hcolor2}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "6px"}} className='drewo' onClick={() => filterer("marketplace")}><span style={{color: `${bg === "marketplace" ? "black" : prop1 && prop1.length > 0 ? prop1 : hcolor}`}}>MARKETPLACE</span></button>
             </div>
             <div className='row workCanvas pt-3'>
               {works.map((e)=>

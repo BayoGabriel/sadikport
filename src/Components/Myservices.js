@@ -74,8 +74,8 @@ const Myservices = (props) => {
                                 </div>
                                 <p className='logp'>01</p>
                             </div>
-                            <p className='text-white fdev'>Web & Mobile Apps Development</p>
-                            <p className='lip'>As an experienced web and mobile app developer, I specialize in creating bespoke digital solutions that prioritize seamless functionality and user experience. My expertise spans both front-end and back-end technologies, guaranteeing tailored and innovative applications for every client.</p>
+                            <p className='text-white fdev'>Product Design (UI/UX)</p>
+                            <p className='lip'>As a Lead Product Designer, I craft intuitive web and mobile experiences from discovery through launch — combining UX research, wireframing, prototyping, and polished interface design to deliver products users love across fintech, SaaS, marketplaces, and more.</p>
                         </div>
                     </div>
                     <div className='col-xl-4 fed p-3' data-aos="fade-up" data-aos-duration="1500">
@@ -86,8 +86,8 @@ const Myservices = (props) => {
                                 <svg viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" fill={prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>maintenance-info</title> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Combined-Shape" fill={prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"} transform="translate(42.666667, 58.666667)"> <path d="M117.333333,48 C182.134744,48 234.666667,100.531923 234.666667,165.333333 C234.666667,177.516512 232.809822,189.266001 229.363697,200.314237 L346.710217,317.661885 C367.98629,338.937958 367.98629,373.433288 346.710217,394.709361 C325.434144,415.985434 290.938814,415.985434 269.662741,394.709361 L152.315234,277.363386 C141.266709,280.80971 129.516879,282.666667 117.333333,282.666667 C52.5319227,282.666667 7.10542736e-15,230.134744 7.10542736e-15,165.333333 C7.10542736e-15,152.827953 1.95635722,140.779505 5.57971243,129.477348 L61.0818825,184.888889 L111.319797,168.156815 C112.394454,166.856793 113.540203,165.595781 114.757044,164.37894 L116.379797,162.756188 C117.593198,161.542787 118.85052,160.400077 120.146646,159.328057 L136.888889,109.149054 L81.3212183,53.6298873 C92.6685218,49.9744211 104.770352,48 117.333333,48 Z M384,90.6666667 L384,218.666667 L341.333333,218.666667 L341.333333,90.6666667 L384,90.6666667 Z M362.666667,1.42108547e-14 C377.39426,1.42108547e-14 389.333333,11.9390733 389.333333,26.6666667 C389.333333,41.39426 377.39426,53.3333333 362.666667,53.3333333 C347.939073,53.3333333 336,41.39426 336,26.6666667 C336,11.9390733 347.939073,1.42108547e-14 362.666667,1.42108547e-14 Z"> </path> </g> </g> </g></svg>                                </div>
                                 <p className='logp'>02</p>
                             </div>
-                            <p className='text-white fdev'>Maintenance and Support</p>
-                            <p className='lip'>I specialize in comprehensive maintenance and support services for digital products. From addressing bugs and implementing updates to ensuring top-notch user support, I ensure the continual smooth operation and enhancement of software systems.</p>
+                            <p className='text-white fdev'>Product Strategy & Discovery</p>
+                            <p className='lip'>I partner with founders, executives, and engineering teams to define product strategy, facilitate discovery workshops, conduct user research, and prioritize roadmaps — aligning stakeholders around customer-centered outcomes.</p>
                         </div>
                     </div>
                     <div className='col-xl-4 fed p-3' data-aos="fade-up" data-aos-duration="2000">
@@ -98,8 +98,8 @@ const Myservices = (props) => {
                                 </div>
                                 <p className='logp'>03</p>
                             </div>
-                            <p className='text-white fdev'>Tutoring and Mentoring</p>
-                            <p className='lip'>As a dedicated web and mobile development tutor and mentor, I offer personalized guidance to individuals seeking to master the intricacies of web development. My approach combines hands-on coaching, tailored lesson plans, and real-world projects to empower learners with practical skills.</p>
+                            <p className='text-white fdev'>Design Systems & Mentorship</p>
+                            <p className='lip'>I build scalable design systems that drive consistency and accelerate engineering delivery, while mentoring designers, facilitating design critiques, and establishing cross-functional design practices within teams.</p>
                         </div>
                     </div>
                 </div>
